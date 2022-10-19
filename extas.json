@@ -1,0 +1,28 @@
+{
+    "name": "extas/characteristic",
+    "repositories": [
+        {
+          "name": "characteristics",
+          "scope": "extas",
+          "pk": "name",
+          "class": "extas\\components\\characteristics\\Characteristic",
+          "aliases": ["characteristics"]
+        }
+    ],
+    "test_data": {
+        "characteristics": [
+            {
+                "name": "health",
+                "title": "Здоровье",
+                "description": "Здоровье",
+                "value": 10
+            },
+            {
+                "name": "energy",
+                "title": "Энергия",
+                "description": "Энергия",
+                "value": 10
+            }
+        ]
+    }
+}
